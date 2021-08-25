@@ -18,7 +18,7 @@ html {
 }
 .box {
     height: 100%;
-    width:4.8vw;
+    width:7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +27,8 @@ html {
 }
 
 .barra_menu-especifico {
-    width: 30%;
-    height: 30%;
+    width: 2rem;
+    height: 2rem;
     
 }
 .barra_perfil-especifico {
@@ -37,7 +37,7 @@ html {
 }
 .el {
     font-size: 1.3rem;
-    width: 8vw;
+    width: 8rem;
     list-style: none;
     text-decoration: none;
     color: black;
@@ -56,27 +56,32 @@ html {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10%;
+    height: 20%;
 
 
 }
 .imagen_especifico {
-    width: 25vw;
+    width: 40rem;
 }
 
 .navegacion_box {
-    height: 8vh;
+    height: 5rem;
     width: 100%;
     display: flex;
     justify-content: center;
     
 }
+.space {
+    width: 100%;
+    height: 3rem;
+
+}
 .navegacion {
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 50%;
-    border: gray solid ;
+    width: 62rem;
+    border:rgb(218, 216, 216) solid 0.1rem;
     border-radius: 30rem 30rem 30rem 30rem;
 }
 
@@ -131,35 +136,32 @@ html {
 }
 .botones_buscar,
 .botones_suerte {
-    padding: 8% 10%;
+    padding: 1.2rem 2.5rem;
     background-color: #f8f9fa;
     border-radius: 0.5rem;
     border: transparent;
+    font-size: 1.5rem;
+    color: rgb(92, 92, 92);
 }
 .space1 {
     width: 100%;
     height: 10vh;
 }
 .footer {
-    
     background-color:#f8f9fa;
-    height: 20vh;
-    width: 100vw;
-    display: flex;
-}
-.footer_up {
-    height: 30%;
+    position: absolute; bottom: 0rem;
     width: 100%;
-    border: tomato solid;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    height: 6rem;
+}
+
+.footer_up {
+    padding: 2rem 3rem;
 }
 .footer_colombia {
-    color: gray;
-    padding: 2%;
+    font-size: 1.6rem;
+    color: grey
+    
 }
-.footer_down-box {
 
-}
+
 
